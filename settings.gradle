@@ -8,6 +8,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Simple Android Library"
-include ':app'
-include ':SydneySuburbs'
+rootProject.name = "NICardManagementSDK"
+include ':ni_sdk'
+
