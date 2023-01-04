@@ -132,7 +132,7 @@
             android:layout_height="30dp"
             android:contentDescription="@string/credentials_toggle_pictogram"
             android:padding="8dp"
-            android:visibility="@{(viewModel.isShowDetailsLiveData == null || viewModel.defaultShouldDisplayValue) ? View.INVISIBLE : View.VISIBLE}"
+            android:visibility="@{(viewModel.isShowDetailsLiveData == null || viewModel.defaultShouldDisplayValue) ? 1 : 0}"
             app:layout_constraintBottom_toBottomOf="@+id/cvvCodeTextView"
             app:layout_constraintStart_toEndOf="@id/guideline2_vertical"
             app:layout_constraintTop_toTopOf="@+id/cvvCodeTextView"
