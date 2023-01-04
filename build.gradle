@@ -3,6 +3,8 @@ buildscript {
     ext {
         compose_version = '1.3.0'
         kotlin_version = '1.7.20'
+        VisionCameraCodeScanner_targetSdkVersion = 31
+        VisionCameraCodeScanner_compileSdkVersion = 31
     }
     repositories {
         google()
