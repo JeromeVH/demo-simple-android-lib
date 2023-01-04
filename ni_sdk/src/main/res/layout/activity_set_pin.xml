@@ -171,8 +171,9 @@
             app:layout_constraintTop_toBottomOf="@+id/sevenButton"
             android:layout_marginBottom="24dp"
             app:srcCompat="@drawable/ic_baseline_check_24"
-            android:clickable="@{viewModel.validationSendButton}"
-            android:focusable="@{viewModel.validationSendButton}"
+            android:clickable="@{viewModel.validationSendButton ? 0 : 4}"
+            android:focusable="@{viewModel.validationSendButton || false}"
+            android:backgroundTint="@color/green1"
             tools:ignore="RedundantDescriptionCheck" />
 
         <Button
